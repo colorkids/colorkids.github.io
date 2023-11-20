@@ -1,0 +1,18 @@
+.bg-primary{
+  background-color: #C9EAFF !important;
+}
+
+@media (min-width: 992px){
+
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active{
+  background-color: #E8C22E;
+  }
+  
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover{
+  background-color: #f7d757;
+  }
+
+  #bannerDC {
+  margin-top: 2%;
+  }
+}
