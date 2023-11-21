@@ -1,18 +1,38 @@
+nav {
+  position: relative;
+  margin: 0 auto 0;
+  padding-top: 0px;
+}
+
+/* nav {
+  overflow-x: hidden;
+  max-width: 100dvw;
+} */
 .bg-primary{
   background-color: #C9EAFF !important;
 }
 
+.whatsapp-bar{
+  position:fixed;
+  bottom: 20px;
+  right: -12px;
+  z-index: 100;
+  display: block;
+}
+.whatsapp-bar img{
+  width: 80%;
+  box-shadow: 1px;
+}
+
+
 @media (min-width: 992px){
 
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active{
-  background-color: #E8C22E;
+  background-color: #C9EAFF;
   }
   
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover{
-  background-color: #f7d757;
+  background-color: #C9EAFF;
   }
 
-  #bannerDC {
-  margin-top: 2%;
-  }
 }
