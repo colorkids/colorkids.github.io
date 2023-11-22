@@ -12,6 +12,10 @@ nav {
   background-color: #C9EAFF !important;
 }
 
+.logo {
+  width: 70%;
+}
+
 .whatsapp-bar{
   position:fixed;
   bottom: 20px;
@@ -35,4 +39,36 @@ nav {
   background-color: #C9EAFF;
   }
 
+  .logo {
+  width: 30%;
+  }
+
 }
+
+.bg-mint-green{
+  background-color: #BEE7D8ff;
+}
+.bg-mint-green-2{
+  background-color: #BDE3D6ff;
+}
+.bg-mint-green-3{
+  background-color: #BDE6D7ff;
+}
+.bg-mint-green-4{
+  background-color: #BEE2D6ff;
+}
+.bg-mint-green-5{
+  background-color: #BDE3D6ff;
+}
+
+.layanan {
+  font-size: 1.3rem;
+  /* font-weight: bolder
+  ; */
+  font-family: 'Lato';
+}
+
+/* .fasilitas-icon{
+  width: 75%;
+  margin: 0px 2px;
+} */
